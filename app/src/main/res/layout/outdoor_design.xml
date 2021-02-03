@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="377dp"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="330dp">
+
+            <TextView
+                android:id="@+id/ps"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Project :" />
+
+
+            <TextView
+                android:id="@+id/prg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/ps"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/prg6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prg"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/vend"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/prg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prg6"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/des"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/prg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prg3"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/startdate"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/prg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prg4"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/chalan"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/prg7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prg9"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/isactive"
+                android:focusableInTouchMode="false"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/prg8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prg5"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/chalan"
+                android:focusableInTouchMode="false"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/prg9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prg8"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/amt"
+                android:focusableInTouchMode="false"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp" />
+
+            <TextView
+                android:id="@+id/vend"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ps"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Vendor :" />
+
+            <TextView
+                android:id="@+id/des"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vend"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Description :" />
+
+
+            <TextView
+                android:id="@+id/startdate"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/des"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Start Date :" />
+
+            <TextView
+                android:id="@+id/enddate"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/startdate"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="End date :" />
+
+            <TextView
+                android:id="@+id/chalan"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/enddate"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Chalan no. :" />
+
+            <TextView
+                android:id="@+id/amt"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/chalan"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Amount :" />
+
+            <TextView
+                android:id="@+id/isactive"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/amt"
+                android:layout_marginTop="10dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="Is Active :" />
+
+
+            <Button
+                android:id="@+id/part"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/isactive"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/by_round"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:text="View Parts :" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/prg7"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="53dp"
+                android:clickable="true"
+                android:elevation="16dp"
+                android:focusable="true"
+                android:src="@drawable/ic_add"
+                android:visibility="visible"
+                tools:ignore="VectorDrawableCompat" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="71dp"
+                android:layout_below="@+id/prg7"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="139dp"
+                android:clickable="true"
+                android:elevation="16dp"
+                android:focusable="true"
+                android:src="@drawable/ic_edit"
+                android:visibility="visible"
+                tools:ignore="VectorDrawableCompat" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

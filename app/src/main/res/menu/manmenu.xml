@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    tools:showIn="navigation_view">
+
+<item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/project"
+        android:icon="@drawable/ic_prg"
+        android:title="Project" />
+
+    <item
+        android:id="@+id/vendor"
+        android:icon="@drawable/vendorr"
+        android:title="Vendor" />
+
+    <item
+        android:id="@+id/procedure"
+        android:icon="@drawable/ic_prg"
+        android:title="Procedure" />
+
+    <item
+        android:id="@+id/indoorprg"
+        android:icon="@drawable/ic_prg"
+        android:title="Indoor_Project" />
+
+    <item
+        android:id="@+id/outdoorprg"
+        android:icon="@drawable/ic_prg"
+        android:title="Outdoor_Project" />
+
+
+
+</menu>

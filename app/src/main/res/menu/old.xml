@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--    <item-->
+    <!--        android:icon="@drawable/bike"-->
+    <!--        android:title="Belgaum"-->
+    <!--        app:showAsAction="always"-->
+    <!--        android:orderInCategory="100">-->
+    <!--        -->
+    <!--    </item>-->
+
+
+    <item
+        android:id="@+id/action_hubli"
+        android:checkable="true"
+        android:title="Raw Material"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_bang"
+        android:checkable="true"
+        android:title="Parts"
+        app:showAsAction="never" />
+
+</menu>

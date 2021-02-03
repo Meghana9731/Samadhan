@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activities.PartsmaterialActivity">
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar1"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ventor"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#FFFF"
+                        android:textSize="20sp"/>
+
+                </RelativeLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_marginTop="60dp"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rr"
+                >
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/name"
+                    android:padding="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/owner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Full Name"/>
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/number"
+                    android:layout_below="@+id/name"
+                    android:padding="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/Contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10sp"
+                        android:hint="Whatsapp Number" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email"
+                    android:layout_below="@+id/number"
+                    android:padding="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:id="@+id/em"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10sp"
+                        android:hint="Address" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/project"
+                    android:layout_below="@+id/email"
+                    android:padding="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pro"
+                        android:drawablePadding="10sp"
+                        android:hint="Password" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ventor"
+                    android:layout_below="@+id/project"
+                    android:padding="5dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/v"
+                        android:drawablePadding="10sp"
+                        android:hint="Email" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <!--    <com.google.android.material.textfield.TextInputLayout-->
+                <!--        android:layout_width="match_parent"-->
+                <!--        android:layout_height="wrap_content"-->
+                <!--        android:id="@+id/duration"-->
+                <!--        android:layout_below="@+id/ndate"-->
+                <!--        android:padding="5dp">-->
+
+                <!--        <com.google.android.material.textfield.TextInputEditText-->
+                <!--            android:id="@+id/d"-->
+                <!--            android:layout_width="match_parent"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:drawablePadding="10sp"-->
+                <!--            android:hint="Duration" />-->
+                <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+                <!--    <com.google.android.material.textfield.TextInputLayout-->
+                <!--        android:layout_width="match_parent"-->
+                <!--        android:layout_height="wrap_content"-->
+                <!--        android:id="@+id/amount"-->
+                <!--        android:layout_below="@+id/duration"-->
+                <!--        android:padding="5dp">-->
+
+                <!--        <com.google.android.material.textfield.TextInputEditText-->
+                <!--            android:layout_width="match_parent"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:drawablePadding="10sp"-->
+                <!--            android:hint="Amount" />-->
+                <!--    </com.google.android.material.textfield.TextInputLayout>-->
+                <!--    <com.google.android.material.textfield.TextInputLayout-->
+                <!--        android:layout_width="match_parent"-->
+                <!--        android:layout_height="wrap_content"-->
+                <!--        android:id="@+id/advance"-->
+                <!--        android:layout_below="@+id/amount"-->
+                <!--        android:padding="5dp">-->
+
+                <!--        <com.google.android.material.textfield.TextInputEditText-->
+                <!--            android:layout_width="match_parent"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:drawablePadding="10sp"-->
+                <!--            android:hint="Advance" />-->
+                <!--    </com.google.android.material.textfield.TextInputLayout>-->
+                <!--    <com.google.android.material.textfield.TextInputLayout-->
+                <!--        android:layout_width="match_parent"-->
+                <!--        android:layout_height="wrap_content"-->
+                <!--        android:id="@+id/rembalance"-->
+                <!--        android:layout_below="@+id/advance"-->
+                <!--        android:padding="5dp">-->
+
+                <!--        <com.google.android.material.textfield.TextInputEditText-->
+                <!--            android:layout_width="match_parent"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:drawablePadding="10sp"-->
+                <!--            android:hint="Remaining Balance" />-->
+                <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

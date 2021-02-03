@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/project"
+            android:icon="@drawable/ic_prg"
+            android:title="Project" />
+<!--        <item-->
+<!--            android:id="@+id/user"-->
+<!--            android:icon="@drawable/ic_user"-->
+<!--            android:title="User" />-->
+<!--        <item-->
+<!--            android:id="@+id/vendor"-->
+<!--            android:icon="@drawable/ic_user"-->
+<!--            android:title="Vendor" />-->
+<!--        <item-->
+<!--            android:id="@+id/pro"-->
+<!--            android:icon="@drawable/ic_prg"-->
+<!--            android:title="Procedure" />-->
+<!--        <item-->
+<!--            android:id="@+id/indoor"-->
+<!--            android:icon="@drawable/ic_prg"-->
+<!--            android:title="Indoor Projects" />-->
+<!--        <item-->
+<!--            android:id="@+id/outdoor"-->
+<!--            android:icon="@drawable/ic_prg"-->
+<!--            android:title="Outdoor Projects" />-->
+
+<!--        <item-->
+<!--            android:id="@+id/nav_about"-->
+<!--            android:icon="@drawable/ic_assembly"-->
+<!--            android:title="Parts" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_terms"-->
+<!--            android:icon="@drawable/ic_assembly"-->
+<!--            android:title="Struct" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_list"-->
+<!--            android:icon="@drawable/ic_assembly"-->
+<!--            android:title="Project List" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_pu"-->
+<!--            android:icon="@drawable/ic_assembly"-->
+<!--            android:title="Purchase " />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_pur"-->
+<!--            android:icon="@drawable/ic_assembly"-->
+<!--            android:title="Purchase Parts " />-->
+    </group>
+
+</menu>
